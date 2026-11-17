@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pemilihan Ketua Broadcasting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="state-1">
+<div class="viewport" id="viewport">
+<div class="stage" id="stage">
+
+  <svg class="bg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="bgg" x1="0" y1="0" x2="769.139" y2="1367.36" gradientUnits="userSpaceOnUse"><stop stop-color="#E6EFFF"/><stop offset="1" stop-color="#F8FAFF"/></linearGradient>
+      <linearGradient id="wave" x1="-15" y1="826" x2="-15" y2="912" gradientUnits="userSpaceOnUse"><stop stop-color="#C5DAFF"/><stop offset="1" stop-color="#3F78E0"/></linearGradient>
+      <clipPath id="cpL"><rect x="-5000" y="-200" width="5701" height="1400"/></clipPath>
+      <clipPath id="cpM"><rect x="699" y="-200" width="202" height="1400"/></clipPath>
+      <clipPath id="cpR"><rect x="899" y="-200" width="5000" height="1400"/></clipPath>
+    </defs>
+    <rect x="-4000" y="-4000" width="9600" height="9800" fill="url(#bgg)"/>
+    <circle class="float c" cx="639" cy="751" r="50" fill="#D6E5FF"/>
+    <g id="bgTL">
+      <path d="M-15 116C91.6667 106 153.667 57.6667 171 -29" fill="none" stroke="#9CBFF7" stroke-width="2"/>
+      <circle class="float" cx="95" cy="208" r="82" opacity="0.7" fill="#D3E3FF"/>
+    </g>
+    <g id="bgTR">
+      <circle class="float b" cx="1515" cy="47" r="56" opacity="0.8" fill="#C5DAFF"/>
+      <circle class="float c" cx="1657" cy="171" r="150" opacity="0.8" fill="#C9DCFF"/>
+    </g>
+    <g opacity="0.8"><g class="seg-l"><g clip-path="url(#cpL)"><path d="M-15 791C131.667 764.333 285 777.667 445 831C605 871 771.667 877.667 945 851C1171.67 817.667 1409 824.333 1657 871V912H-15V791Z" fill="#D5E4FF"/></g></g><g class="seg-m"><g clip-path="url(#cpM)"><path d="M-15 791C131.667 764.333 285 777.667 445 831C605 871 771.667 877.667 945 851C1171.67 817.667 1409 824.333 1657 871V912H-15V791Z" fill="#D5E4FF"/></g></g><g class="seg-r"><g clip-path="url(#cpR)"><path d="M-15 791C131.667 764.333 285 777.667 445 831C605 871 771.667 877.667 945 851C1171.67 817.667 1409 824.333 1657 871V912H-15V791Z" fill="#D5E4FF"/></g></g></g>
+    <g><g class="seg-l"><g clip-path="url(#cpL)"><path d="M-15 831C158.333 817.667 331.667 831 505 871C705 911 898.333 911 1085 871C1285 831 1475.67 824.333 1657 851V912H-15V831Z" fill="url(#wave)"/></g></g><g class="seg-m"><g clip-path="url(#cpM)"><path d="M-15 831C158.333 817.667 331.667 831 505 871C705 911 898.333 911 1085 871C1285 831 1475.67 824.333 1657 851V912H-15V831Z" fill="url(#wave)"/></g></g><g class="seg-r"><g clip-path="url(#cpR)"><path d="M-15 831C158.333 817.667 331.667 831 505 871C705 911 898.333 911 1085 871C1285 831 1475.67 824.333 1657 851V912H-15V831Z" fill="url(#wave)"/></g></g></g>
+  </svg>
+
+  <div class="pages" id="pages">
+
+    <section class="page page-home active" data-page="home" aria-label="Home">
+      <div class="grp">
+        <div class="grp title-row">
+          <div class="abs hline" style="left:420px;top:164px;width:215px"></div>
+          <div class="abs title-small">PEMILIHAN</div>
+          <div class="abs hline" style="left:960px;top:164px;width:205px"></div>
+        </div>
+        <h1 class="abs title-big">KETUA BROADCASTING</h1>
+      </div>
+
+      <main class="grp main">
+        <section class="grp box-wrap" aria-live="polite">
+          <svg class="abs ballot-svg" viewBox="185 316 327 134" aria-hidden="true">
+            <path d="M247.13 419H448.235L512 450H185L247.13 419Z" fill="#2E60AA"/>
+            <path d="M294.989 436H404.152L412 442H285L294.989 436Z" fill="#1B3A8C"/>
+            <path d="M256 373.8L342.5 316L416.8 427.2L398.7 439.3C380 440 330 440.6 300.3 440.1Z" fill="#fff" stroke="#3E6CB2" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+          <div class="abs box">
+            <p class="box-title" id="boxTitle">Masukan Jumlah<br>Peserta Voting</p>
+            <div class="stepper" id="stepper">
+              <button type="button" class="step-btn minus" id="minus" aria-label="Kurangi"></button>
+              <div class="num" id="num">20</div>
+              <button type="button" class="step-btn plus" id="plus" aria-label="Tambah"></button>
+            </div>
+            <div class="counter" id="counter" hidden>0/20</div>
+            <button type="button" class="btn-main" id="mainBtn">Mulai</button>
+          </div>
+        </section>
+        <section class="grp cards-wrap" id="cards"></section>
+      </main>
+
+      <footer class="grp">
+        <div class="abs hline hide-m" style="left:322px;top:839px;width:190px"></div>
+        <div class="abs foot-pill">
+          <span>Klik tombol 1, 2, atau 3 sesuai pilihanmu!</span>
+        </div>
+        <div class="abs hline hide-m" style="left:1088px;top:839px;width:190px"></div>
+      </footer>
+    </section>
+
+    <section class="page page-about" data-page="about" aria-label="Tentang">
+      <div class="grp">
+        <h2 class="abs about-title">Website Pemilu Digital</h2>
+        <p class="abs about-sub">yang Aman, Transparan, dan Efisien</p>
+        <div class="abs about-underline"></div>
+
+        <div class="abs about-text">
+          <p>Website ini dirancang untuk menghadirkan sistem pemungutan suara digital yang modern, praktis, dan mudah digunakan. Melalui sistem<br class="br-d"> ini, diharapkan proses pemilihan dapat berjalan lebih efisien, transparan, dan terpercaya.</p>
+          <p>Dengan adanya teknologi digital, setiap suara dapat tercatat secara lebih terstruktur, hasil perolehan suara dapat dipantau dengan jelas,<br class="br-d"> serta proses perhitungan menjadi lebih cepat dan akurat. Sistem ini juga diharapkan mampu meminimalkan potensi kecurangan maupun<br class="br-d"> kesalahan dalam pemungutan dan penghitungan suara.</p>
+          <p>Selain menjadi sarana pemilihan, website ini merupakan salah satu upaya pemanfaatan teknologi untuk mendukung proses demokrasi<br class="br-d"> yang lebih baik di lingkungan sekolah.</p>
+        </div>
+
+        <div class="grp about-cards">
+          <article class="abs feat" data-stagger style="left:372px">
+            <h3>Aman &amp; Terpercaya</h3>
+            <p>Data suara terlindungi<br class="br-d"> dengan sistem keamanan<br class="br-d"> terbaik.</p>
+          </article>
+          <article class="abs feat" data-stagger style="left:589.29px">
+            <h3>Transparan</h3>
+            <p>Hasil pemilihan dapat<br class="br-d"> dilihat secara real-time.</p>
+          </article>
+          <article class="abs feat" data-stagger style="left:806.58px">
+            <h3>Efisien</h3>
+            <p>Pemilihan lebih cepat<br class="br-d"> dan praktis.</p>
+          </article>
+          <article class="abs feat" data-stagger style="left:1023.88px">
+            <h3>Anti Kecurangan</h3>
+            <p>Sistem adil untuk<br class="br-d"> semua pihak.</p>
+          </article>
+        </div>
+      </div>
+
+      <footer class="grp">
+        <div class="abs hline hide-m" style="left:322px;top:839px;width:190px"></div>
+        <div class="abs about-pill">
+          <span>Suara Anda, Wujud Masa Depan Broadcasting!</span>
+        </div>
+        <div class="abs hline hide-m" style="left:1088px;top:839px;width:190px"></div>
+      </footer>
+    </section>
+
+    <section class="page page-vm" data-page="visimisi" aria-label="Visi Misi">
+      <div class="vm-slide" id="vmSlide">
+        <article class="abs card vm-card" id="vmCard" data-stagger></article>
+
+        <div class="abs vm-panel">
+          <section class="vm-box vm-visi" data-stagger>
+            <span class="tag wide" style="left:36px">Visi</span>
+            <p id="vmVisi"></p>
+          </section>
+          <div class="vm-cols">
+            <section class="vm-box vm-misi" data-stagger>
+              <span class="tag wide" style="left:36px">Misi</span>
+              <ol id="vmMisi"></ol>
+            </section>
+            <section class="vm-box vm-proker" data-stagger>
+              <span class="tag wide" style="left:36px">Program Kerja</span>
+              <ul id="vmProker"></ul>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="abs vm-arrow vm-prev" aria-label="Paslon sebelumnya">
+        <svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M15 4L7 12L15 20" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" class="abs vm-arrow vm-next" aria-label="Paslon berikutnya">
+        <svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M9 4L17 12L9 20" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <footer class="grp">
+        <div class="abs hline hide-m" style="left:322px;top:839px;width:190px"></div>
+        <div class="abs vm-pill">
+          <button type="button" class="m-btn vm-prev" aria-label="Paslon sebelumnya">&#8249;</button>
+          <div class="dots" id="vmDots"></div>
+          <button type="button" class="m-btn vm-next" aria-label="Paslon berikutnya">&#8250;</button>
+        </div>
+        <div class="abs hline hide-m" style="left:1088px;top:839px;width:190px"></div>
+      </footer>
+    </section>
+  </div>
+
+  <header class="grp">
+    <nav class="grp">
+      <div class="abs nav"></div>
+      <div class="abs brand"><b>BROADCASTING</b><span>SMKN 10 SEMARANG</span></div>
+      <div class="abs divider hide-m"></div>
+      <div class="grp nav-links">
+        <a href="#home" class="abs pill-nav home active" data-nav="home">Home</a>
+        <a href="#tentang" class="abs pill-nav t" data-nav="about">Tentang</a>
+        <a href="#visimisi" class="abs pill-nav v" data-nav="visimisi">Visi Misi</a>
+      </div>
+    </nav>
+  </header>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
