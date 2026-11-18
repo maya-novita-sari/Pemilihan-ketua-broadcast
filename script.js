@@ -32,11 +32,11 @@
         { k: '1', d: 'Setiap divisi mempunyai dua penanggung jawab yaitu dari kelas 10 dan 11. Agar mereka dapat merasakan pertanggungjawaban antara mereka berdua (kelas 10, 11)' }
       ],
       proker: [
-        'Membuat podcast di hari spesial, dengan membahas tentang hari spesial tersebut, bisa juga menanyai tentang opini mereka tentang hari spesial tersebut, bisa dengan anggota OSIS ataupun PPL/guru.'
+        'Membuat podcast di hari spesial, dengan membahas tentang hari spesial tersebut,dan kita juga mengundang tamu bisa dari guru dan murid dan menanyai tentang opini mereka tentang hari spesial tersebut'
       ]
     },
     {
-      visi: 'Menjadikan Broadcasting sebagai ruang yang kreatif, inovatif dan mengubah setiap informasi yang ada menjadi inspirasi, motivasi dan setiap karya menjadikan sebuah identitas sekolah (ciri khas) yang membuat Broadcasting lebih terkenal dan maju.',
+      visi: 'Menjadikan Broadcasting sebagai ruang yang kreatif, inovatif dan mengubah setiap informasi yang ada menjadi inspirasi, motivasi  dan setiap karya menjadikan sebuah identitas sekolah (ciri khas) yang membuat Broadcasting lebih terkenal dan maju.',
       misi: [
         { k: '1', d: 'Pemerataan kemampuan seluruh anggota melalui rotasi tugas dan proyek kolaborasi, sehingga anggota tidak hanya bergantung pada satu orang yang paling menguasai bidangnya (tidak berlaku jika ada event penting dan besar.)' },
         { k: '2', d: 'Memberikan piket berkala agar bisa membuat ruang broadcasting lebih bersih dan terlihat rapi.' },
@@ -44,8 +44,8 @@
       ],
       proker: [
         'Membuat sistem podcast sekali satu bulan pada aplikasi Spotify. Membahas tentang berbagai isu yang sedang trend atau keluh kesah pada divisi masing-masing.',
-        'Melakukan evaluasi secara bertahap 3 kali dalam sebulan untuk anggota Broadcasting yang kurang aktif, apalagi menolak bertugas di job yang sudah dipilihnya.',
-        'Mengadakan event satu tahun sekali di ekstrakurikuler Broadcasting berupa kompetisi masing-masing divisi dengan tema yang berbeda untuk melatih kreativitas dan kemampuan setiap divisi.'
+        'Melakukan konsultasi antara anggota bc yang jarang mengikuti pertemuan tanpa ada alasan yang jelas dan menolak penugasan yang diberikan. Dan berdiskusi dengan guru pembimbing untuk kedepannya.',
+        'Mengadakan event satu tahun sekali di ekstrakulikuler Broadcasting berupa kompetisi masing masing divisi  dengan tema yang berbeda untuk melatih kreativitas dan kemampuan setiap divisi.'
       ]
     }
   ];
